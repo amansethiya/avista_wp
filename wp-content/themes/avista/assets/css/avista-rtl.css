@@ -1,0 +1,189 @@
+html {
+    direction: rtl;
+    text-align: right;
+}
+.split-line div{
+    direction: ltr;
+}
+.splitting span {
+    direction: ltr;
+}
+/* HOME 1 RTL CSS START */
+
+.pf-hero-1-img-text-shape,
+.pf-hero-1-img-main {
+    transform: scaleX(-1);
+}
+
+.pf-hero-1-img-text-shape {
+    margin-left: 0;
+    margin-right: -9px;
+}
+
+.pf-hero-1-img-text {
+    left: auto;
+    right: -16px;
+}
+
+.pf-hero-1-social-posi {
+    right: auto;
+    left: 32px;
+}
+
+.pf-services-1-item::after {
+    left: auto;
+    right: 0;
+}
+
+.pf-services-1-item .maxwidth {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.pf-services-1-item::before {
+    left: auto;
+    right: -4px;
+}
+
+.pf-about-1-earth-text-2-shape {
+    transform: scaleX(-1);
+}
+
+.pf-about-1-earth-text-2 {
+    right: auto;
+    left: 0;
+}
+
+.pf-about-1-earth-text {
+    left: auto;
+    right: 50px;
+}
+
+.pf-about-1-earth-text-shape {
+    transform: scaleX(-1);
+}
+
+.pf-solution-1-item {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.pf-solution-1-item-card {
+    margin-left: 0px;
+    margin-right: -36px;
+    padding-left: 0px;
+    padding-right: 92px;
+}
+
+.pf-overview-1-tabs-btn {
+    /* transform: scaleX(-1); */
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-1) {
+    right: auto;
+    left: 39%;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-2) {
+    right: auto;
+    left: 45%;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-3) {
+    left: auto;
+    right: 29%;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-4) {
+    left: auto;
+    right: 20%;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-5) {
+    left: auto;
+    right: 3%;
+}
+
+.pf-overview-1-tabs-pane .tab-pane::before {
+    left: auto;
+    right: -44px;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-1) svg {
+    left: auto;
+    right: 7px;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-2) svg {
+    left: auto;
+    right: 8px;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-3) svg {
+    left: auto;
+    right: 5px;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-4) svg {
+    left: auto;
+    right: 6px;
+}
+
+.pf-overview-1-tabs-btn-link:is(.btn-5) svg {
+    left: 0px;
+    right: 6px;
+}
+
+.pf-overview-1-tabs-btn-link::before {
+    left: auto;
+    right: 5px;
+}
+
+.pf-overview-1-tabs-btn-link svg {
+    transform: scaleX(-1);
+}
+
+.pf-accordion-item .item-title .icon {
+    margin-left: 0;
+    margin-right: auto;
+}
+.pf-testimonial-1-slider-item .item-shape {
+    left: auto;
+    right: 108px;
+    transform: scaleX(-1);
+}
+.pf-testimonial-1-slider-item .item-author {
+    margin-left: 0px;
+    margin-right: 186px;
+}
+.pf-slider-btn {
+    transform: scaleX(-1);
+}
+.pf-form-1-input {
+    text-align: right;
+}
+.pf-touch-1-glow {
+    right: auto;
+    left: -25%;
+}
+.pf-touch-1-shape {
+    right: auto;
+    left: -20%;
+}
+.txa-search-box {
+    right: auto;
+    left: 0;
+}
+/* HOME 1 RTL CSS END */
+
+/* HOME 2 RTL CSS START */
+.pf-hero-5-slider .pf-hero-1-social-posi {
+    right: auto;
+    left: 20px;
+}
+.pf-menu-btn-2:hover span:nth-child(7),
+.pf-menu-btn-2:hover span:nth-child(6),
+.pf-menu-btn-2:hover span:nth-child(1) {
+    transform: scaleX(-4.5);
+}
+/* HOME 2 RTL CSS END */
